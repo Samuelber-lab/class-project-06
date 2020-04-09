@@ -1,0 +1,110 @@
+
+
+body {
+    margin: auto;
+    width: 960px;
+    background-color: rgb(214, 233, 100);
+    font-family: 'Times New Roman';
+    color: rgb(31, 100, 40);
+  }
+
+  /* header */
+header > h1 {
+    height: 60px;
+    width: 300;
+    background-color: #0000FF;
+    font-size: xx-large;
+    text-align: center;
+    margin-top: 50px;
+    color: white
+  }
+  
+  header > img {
+    width: 400px;
+    margin-right: 100px;
+    margin-top: 30px;
+    float: left;
+  }
+    
+  header > nav > ul > li {
+    display: inline-block;
+    width: 300px;
+    border-radius: 10px;
+    background-color: green;
+    margin: 5px;
+    margin-top: 40px;
+    text-align: center;
+    font-size: x-large;
+    color: black;
+    border: 1px solid black;
+  }
+
+  section > h2 {
+    margin: 10px;
+    height: 50px;
+    margin-right: 50px;
+    margin-top: 200px;
+    font-size: xx-large;
+    color: palevioletred;
+  }
+
+  section > h2 > p {
+    margin: 10px;
+    height: 50px;
+    margin-right: 50px;
+    margin-top: 1px;
+    font-size: large;
+  }
+
+  section > img {
+    width: 300px;
+    margin-left: 100px;
+    margin-top: 40px;
+    float: right;
+  }
+
+  section > h3 {
+    margin: 10px;
+    height: 50px;
+    margin-right: 50px;
+    margin-top: 100px;
+    font-size: xx-large;
+    color: brown;
+  }
+
+  section > h3 > p {
+    margin: 10px;
+    height: 10px;
+    margin-right: 50px;
+    margin-top: 1px;
+    font-size: large;
+  }
+  
+  #id-first {
+    background-color: rgb(178,34,34);
+  }
+  
+  .class-blue {
+    background-color: lightskyblue;
+  }
+  
+  header > nav > ul > li > a {
+    color: inherit;
+  }
+
+  #id-second {
+    background-color: burlywood;
+  }
+
+  footer > nav > ul > li {
+    background-color: rgb(178,34,34);
+    width: 100px;
+    text-align: center;
+    font-size: medium;
+    border-radius: 25px;
+    border: 1px solid black;
+    color: black;
+    margin-left: 50px;
+    display: inline-block;
+  }
+

@@ -1,17 +1,29 @@
 // add JavaScript content here
 function askName() {
     var username = prompt ('what is your full name?');
+    return document.write('WELCOME ' + username + '!');
 }
-return documnet.write('WELCOME' + username);
 
 function getOpenion() {
     var response = prompt ('Do you like hiking?');
-    var Message;
-}
+    var response;
+
 if (response === 'yes') {
-    Message = 'Please recommend the most wondrous hiking spot that visited.';
+    var response = prompt ('Please recommend the most wondrous hiking spot that visited.');
+    var response;
 } else if (response === 'no') {
-    Message = 'It is ok, but how many spots do you guess to exist in US?' 
+    var response = prompt ('It is ok, but how many spots do you think to exist in US?');
+    var response; 
+}
 }
 
-return document.write(Message);
+function getSuggestion() {
+    var reflection = prompt ('Do you think precaution has to be taken before every hiking attempt?');
+    var reflection;
+
+if (reflection === 'yes') {
+    return document.write('Awesome and thank you for sharing your openion!!'); 
+} else if (reflection === 'no') {
+    return document.write('Thank you for sepending your time in going through the suggetion process!'); 
+}
+}
